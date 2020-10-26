@@ -1,0 +1,28 @@
+[author]
+name = "Juan Belieni"
+email = "juanbelieni@gmail.com"
+twitter = "juanbelieni"
+
+[project]
+title = "Dice roller"
+description = "A dice roller algorithm implemented in Rust."
+screenshot = "assets/screenshot.png"
+features = [
+  "Is able to do addition and subtraction.",
+  "Handle string expressions like `2d12 - d10 + 5d6`."
+]
+instalation = '''
+```bash
+# Clone
+$ git clone http://github.com/juanbelieni/dice-roller.git
+
+# Build
+$ cargo build --release
+```
+'''
+usage = '''
+```bash
+# After build
+./target/release/dice-roller
+```
+'''
